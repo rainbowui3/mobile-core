@@ -40,11 +40,13 @@ import LoadingApi from './components/loading/api';
 import ConfirmApi from './components/confirm/api';
 import Marquee from './components/marquee/index.vue';
 import Badge from './components/badge/index.vue';
+import RBody from './components/body/index.vue';
 
 export {
     Card,
     RHeader,
     TabBar,
+    RBody,
     Actionsheet,
     Drawer,
     Loading,

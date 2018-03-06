@@ -47,10 +47,11 @@ export default {
 
 <style scoped lang="less">
 .vux-header{
-	width: 100%;
+	  width: 100%;
     position: fixed;
     left: 0px;
     top: 0px;
-    z-index: 100;
+    z-index: 1000;
 }
+
 </style>

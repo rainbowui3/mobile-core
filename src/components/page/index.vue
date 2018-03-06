@@ -1,14 +1,10 @@
 <template>
     <div :class="className">
-      <view-box ref="viewBox">
         <slot></slot>
-      </view-box>
     </div>
 </template>
 
 <script>
-const ViewBox =  require("vux/src/components/view-box/index.vue");
-
 export default {
   props:{
     className:{
@@ -17,9 +13,6 @@ export default {
         return 'page'
       }
     }
-  },
-  components: {
-    ViewBox
   },
 }
 </script>
@@ -30,13 +23,15 @@ export default {
   right:0;
   top:0;
   bottom:0;
-  padding-top: 46px;
 }
 body{
   background-color: #eee
 }
 .fa{
  color: #4D93E4;
+}
+.weui-tab {
+    position: unset;
 }
 </style>
 

@@ -81,5 +81,4 @@ export default {
 .weui-panel:first-child {
     margin-top: 10px!important;
 }
-
 </style>

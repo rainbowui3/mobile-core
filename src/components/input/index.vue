@@ -146,4 +146,7 @@ export default {
 .weui-cells {
     margin-top: 0!important;
 }
+.weui-label{
+    margin-left: -10px;
+}
 </style>
