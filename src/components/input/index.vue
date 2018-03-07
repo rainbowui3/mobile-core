@@ -146,7 +146,8 @@ export default {
 .weui-cells {
     margin-top: 0!important;
 }
-.weui-label{
-    margin-left: -10px;
+
+.weui-input {
+    color: #999!important;
 }
 </style>

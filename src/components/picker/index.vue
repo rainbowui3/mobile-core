@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="popup-picker">
       <popup-picker @on-change="_onChange" :title="title" :data="options" v-model="model[value]" :placeholder="placeholder"  :columns="columns" :show-name="cascade"></popup-picker>
   </div>
 </template>
@@ -47,6 +47,9 @@ export default {
 
 <style>
 .vux-popup-picker-header-menu-right{
+  color: #4D93E4!important;
+}
+.vux-popup-header-right {
   color: #4D93E4!important;
 }
 </style>

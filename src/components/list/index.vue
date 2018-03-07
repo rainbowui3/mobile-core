@@ -24,3 +24,8 @@ export default {
   }
 }
 </script>
+<style>
+.weui-form-preview__label {
+    color: #000!important;
+}
+</style>

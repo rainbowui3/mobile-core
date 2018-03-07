@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="card">
     <card :header="header" :footer="footer">
       <r-image slot="header" :list="imageList" v-if="imageList"/>
       <div slot="content" class="card-content">
@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     header() {
-      return {title:this.title}
+      return this.title?{title:this.title}:{title:null}
     },
     footer() {
       return {title:this.footerText,link:this.footerLink}
@@ -75,10 +75,11 @@ export default {
 .card-demo-flex span {
   color: #f74c31;
 }
-.card-content{
-  text-align: center
-}
-.weui-panel:first-child {
+
+.card {
     margin-top: 10px!important;
+}
+.page .card:first-child{
+      margin-top: 0!important;
 }
 </style>
