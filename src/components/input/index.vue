@@ -93,16 +93,16 @@ export default {
       return this.isEmail?'email':null;
     },
     _onFocus(){
-      return this.onFocus?this._wapperOnFocus:this.moveInput;
+      return this.onFocus?this._wapperOnFocus:()=>{};
     },
     _onBlur(){
-      return this.onBlur?this._wapperOnBlur:this.backInput;
+      return this.onBlur?this._wapperOnBlur:()=>{};
     },
     _keyboard(){
       return this.isPhone?'number':'text';
     },
     _onEnter(){
-      return this.onEnter?this._wapperOnEnter:this.backInput;
+      return this.onEnter?this._wapperOnEnter:()=>{};
     },
     _onChange(){
       return this.onChange?this.onChange:()=>{};
@@ -128,15 +128,15 @@ export default {
       },200);
     },
     _wapperOnFocus(){
-      this.moveInput();
+      //this.moveInput();
       return this.onFocus;
     },
     _wapperOnBlur(){
-      this.backInput();
+      //this.backInput();
       return this.onBlur;
     },
     _wapperOnEnter(){
-      this.backInput();
+      //this.backInput();
       return this.onEnter;
     }
   }
