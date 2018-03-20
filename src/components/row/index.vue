@@ -3,7 +3,7 @@
          <group>
             <cell  
               :title="title" 
-              :value="model[value]" 
+              :value="model?model[value]:''" 
               @click.native="_onClick" 
               :is-loading="isLoading"
               :is-link="_isLink"
