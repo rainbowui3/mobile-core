@@ -46,8 +46,32 @@ export default {
   },
   methods:{
     clickButton(event){
-        this.onClick?this.onClick(event):null;
-    }
+        const checkResult = [];
+        this.checkInput(this.$root,checkResult);
+        if(!_.isEmpty(checkResult)){
+            const errorObj = checkResult[0];
+            errorObj.focus();
+            errorObj.blur();
+            errorObj.focus();
+        }else{
+           this.onClick?this.onClick(event):null;
+        }
+    },
+    checkInput(obj,inputs){
+        if(obj&&!_.isEmpty(obj.$refs)){
+          _.each(obj.$refs,(ref)=>{
+              if(obj.hasErrors){
+                  inputs.push(obj)
+              }
+              if(obj.required&&_.isEmpty(obj.value)){
+                  inputs.push(obj)
+              }
+          });
+        }
+        _.each(obj.$children,(children)=>{
+            this.checkInput(children,inputs);
+        })
+    } 
   }
 }
 </script>

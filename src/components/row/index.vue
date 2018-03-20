@@ -3,7 +3,7 @@
          <group>
             <cell  
               :title="title" 
-              :value="value" 
+              :value="model[value]" 
               @click.native="_onClick" 
               :is-loading="isLoading"
               :is-link="_isLink"
@@ -26,6 +26,7 @@ const Group =  require("vux/src/components/group/index.vue");
 export default {
   props:{
     title:String,
+    model:Object,
     value:String,
     primary:String,
     link:String,

@@ -2,7 +2,7 @@
 <div>
   <grid :cols="cols">
            <grid-item  :label="item.text"  v-for="(item, index) in data"  :key="index" :link="item.link" @on-item-click="onItemClick(item.onClick)">
-                 <i slot="icon"  :class="item.icon"></i>
+                 <i slot="icon"  :class="item.icon"><img :src="item.img" v-if="item.img"/></i>
            </grid-item>
   </grid>
 </div> 

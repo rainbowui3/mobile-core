@@ -1,10 +1,10 @@
 <template>
-<div v-bind:ref="id">
+<div >
     <group>
         <x-input 
         :title="title" 
         :placeholder="placeholder" 
-        :novalidate="validate"  
+        :novalidate="novalidate"  
         :icon-type='iconType' 
         :show-clear="showClear"  
         placeholder-align="right"
@@ -51,7 +51,7 @@ export default {
     onChange:Function,
     onFocus:Function,
     iconType:String,
-    validate:{
+    novalidate:{
       type:Boolean,
       default(){
         return true;
