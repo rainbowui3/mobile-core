@@ -15,6 +15,10 @@
                 <span v-if="citem.icon" :title="citem.text" :class="citem.icon"></span>
                 <span v-else-if="citem.text">{{citem.text}}</span>
               </a>
+               <a v-else-if="citem.onClick" href="javascript:void(0)" @click="click(citem,item)">
+                <span v-if="citem.icon" :title="citem.text" :class="citem.icon"></span>
+                <span v-else-if="citem.text">{{citem.text}}</span>
+              </a>
               <div v-else-if="citem.text">{{citem.text}}</div>
             </td>
           </tr>
@@ -36,6 +40,9 @@ export default {
   methods:{
     goto(link){
         window.location.hash=link;
+    },
+    click(citem,item){
+        citem.onClick?citem.onClick(citem):()=>{};
     }
   }
 }

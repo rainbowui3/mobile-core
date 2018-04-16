@@ -54,7 +54,7 @@ export default {
       this.model[this.value] = null;
     },
     _onChange(){
-        return this.onChange?this.onChange:()=>{};
+        return this.onChange?this.onChange():()=>{};
     }
   },
   components: {

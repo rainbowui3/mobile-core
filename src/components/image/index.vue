@@ -29,8 +29,8 @@ export default {
       ele.parentNode.removeChild(span)
     },
     error (src, ele, msg) {
-      const span = ele.parentNode.querySelector('span')
-      span.innerText = 'load error'
+      // const span = ele.parentNode.querySelector('span')
+      // span.innerText = 'load error'
     },
     _action(action,param){
       action?action(param):null;
