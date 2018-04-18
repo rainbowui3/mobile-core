@@ -47,9 +47,9 @@ export default {
 
 <style>
 .vux-popup-picker-header-menu-right{
-  color: #4D93E4!important;
+  color: #409EFF!important;
 }
 .vux-popup-header-right {
-  color: #4D93E4!important;
+  color: #409EFF!important;
 }
 </style>

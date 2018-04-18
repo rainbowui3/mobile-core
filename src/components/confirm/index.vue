@@ -65,7 +65,7 @@ export default {
 
 <style>
 .weui-dialog__btn_primary {
-    color: #4D93E4!important;
+    color: #409EFF!important;
 }
 </style>
 

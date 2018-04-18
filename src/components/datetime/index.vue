@@ -97,10 +97,10 @@ export default {
 
 <style>
 .dp-header .dp-item {
-    color: #4D93E4!important;
+    color: #409EFF!important;
 }
 .dp-header .dp-item.dp-right {
-    color: #4D93E4!important;
+    color: #409EFF!important;
 }
 .dp-header .dp-item.dp-left {
     color: #828282!important;

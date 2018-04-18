@@ -77,17 +77,17 @@ export default {
 </script>
 <style>
 .weui-btn_primary {
-    background-color: #4D93E4!important;
+    background-color: #409EFF!important;
 }
 .weui-btn_loading.weui-btn_primary {
-    background-color: #4D93E4!important;
+    background-color: #409EFF!important;
 }
 .weui-btn_plain-primary {
-    color: #4D93E4;
-    border: 1px solid #4D93E4!important;
+    color: #409EFF;
+    border: 1px solid #409EFF!important;
 }
 .weui-btn_disabled.weui-btn_primary {
-    background-color: #4D93E4!important;
+    background-color: #409EFF!important;
 }
 
 </style>

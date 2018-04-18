@@ -50,7 +50,7 @@ export default {
   color: #888;
 }
 .weui-cells_radio .weui-check:checked + .weui-icon-checked:before {
-    color: #4D93E4!important;
+    color: #409EFF!important;
 }
 .vux-label {
     display: flex!important;

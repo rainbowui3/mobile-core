@@ -27,7 +27,7 @@ body{
   background-color: #eee
 }
 .fa{
- color: #4D93E4;
+ color: #409EFF;
 }
 .weui-tab {
     position: unset;

@@ -29,7 +29,7 @@ export default {
 
 <style>
 .weui-switch:checked, .weui-switch-cp__input:checked ~ .weui-switch-cp__box {
-    border-color: #4D93E4!important;
-    background-color: #4D93E4!important;
+    border-color: #409EFF!important;
+    background-color: #409EFF!important;
 }
 </style>

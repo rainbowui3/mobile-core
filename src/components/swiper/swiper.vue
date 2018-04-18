@@ -58,7 +58,7 @@ export default {
 
 <style>
 .vux-slider > .vux-indicator > a > .vux-icon-dot.active, .vux-slider .vux-indicator-right > a > .vux-icon-dot.active {
-    background-color: #4D93E4!important;
+    background-color: #409EFF!important;
 }
 .vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-swiper-desc {
     display: flex;
