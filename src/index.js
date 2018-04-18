@@ -19,7 +19,7 @@ import XTable from './components/table/index.vue';
 import List from './components/list/index.vue';
 import Cell from './components/cell/index.vue';
 import Box from './components/box/index.vue';
-import RButton from './components/button/index.vue';
+import XButton from './components/button/index.vue';
 import Swiper from './components/swiper/swiper.vue';
 import SwiperItem from './components/swiper/swiper-item.vue';
 import XSwitch from './components/switch/index.vue';
