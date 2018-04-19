@@ -52,11 +52,5 @@ export default {
   }
 }
 </script>
-<style>
-.row-value{
-    display: flex;
-    justify-content: flex-end;
-}
-</style>
-
+ 
 

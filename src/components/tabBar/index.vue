@@ -24,8 +24,4 @@ export default {
   }
 }
 </script>
-<style>
-i.weui-tabbar__icon, .weui-tabbar__icon > i {
-    font-size: 20px!important;
-}
-</style>
+ 

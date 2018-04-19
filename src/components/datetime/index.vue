@@ -95,14 +95,4 @@ export default {
 };
 </script>
 
-<style>
-.dp-header .dp-item {
-    color: #409EFF!important;
-}
-.dp-header .dp-item.dp-right {
-    color: #409EFF!important;
-}
-.dp-header .dp-item.dp-left {
-    color: #828282!important;
-}
-</style>
+ 

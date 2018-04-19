@@ -55,31 +55,4 @@ export default {
 
 <style scoped lang="less">
 @import '~vux/src/styles/1px.less';
-.card-demo-flex {
-  display: flex;
-}
-.card-demo-content01 {
-  padding: 10px 0;
-}
-.card-padding {
-  padding: 15px;
-}
-.card-demo-flex > div {
-  flex: 1;
-  text-align: center;
-  font-size: 12px;
-}
-.card-demo-flex a {
-  color: #333;
-}
-.card-demo-flex span {
-  color: #f74c31;
-}
-
-.card {
-    margin-top: 10px!important;
-}
-.page .card:first-child{
-      margin-top: 0!important;
-}
 </style>

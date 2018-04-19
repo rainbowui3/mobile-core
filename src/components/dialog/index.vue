@@ -32,15 +32,5 @@ export default {
 </script>
 <style lang="less" scoped>
 @import '~vux/src/styles/close';
-.dialog-demo {
-  .weui-dialog{
-    border-radius: 8px;
-    padding-bottom: 8px;
-  }
-  .dialog-title {
-    line-height: 30px;
-    color: #666;
-  }
-}
 </style>
 

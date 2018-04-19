@@ -39,16 +39,4 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
-.ximg-demo {
-  width: 100%;
-  height: auto;
-}
-.ximg-error {
-  background-color: yellow;
-}
-.ximg-error:after {
-  content: '加载失败';
-  color: red;
-}
-</style>
+ 

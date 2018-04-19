@@ -35,11 +35,4 @@ export default {
   }
 }
 </script>
-<style>
-.weui-grids{
-  background-color: #ffffff
-}
-.weui-grid__icon {
-    text-align: center;
-}
-</style>
+ 

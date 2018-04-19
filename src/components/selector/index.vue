@@ -43,16 +43,4 @@ export default {
 };
 </script>
 
-<style>
-.demo3-slot {
-  text-align: center;
-  padding: 8px 0;
-  color: #888;
-}
-.weui-cells_radio .weui-check:checked + .weui-icon-checked:before {
-    color: #409EFF!important;
-}
-.vux-label {
-    display: flex!important;
-}
-</style>
+ 

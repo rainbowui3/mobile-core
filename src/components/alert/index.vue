@@ -40,9 +40,4 @@ export default {
 }
 </script>
 
-<style>
-.weui-dialog__btn_primary {
-    color: #409EFF!important;
-}
-</style>
-
+ 

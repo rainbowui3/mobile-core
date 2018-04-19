@@ -27,16 +27,6 @@ export default {
   }
 }
 </script>
-<style>
-.weui-media-box_text{
-  text-align: left!important;
-}
-.weui-media-box_appmsg .weui-media-box__bd {
-  text-align: left!important;
-}
-.weui-cell__bd{
-    text-align: left!important;
-}
-</style>
+ 
 
 

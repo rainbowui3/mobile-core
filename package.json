@@ -1,6 +1,6 @@
 {
   "name": "rainbow-mobile-core",
-  "version": "3.0.9",
+  "version": "3.0.12",
   "description": "Rainbow Mobile",
   "main": "./src/index.js",
   "keywords": [],

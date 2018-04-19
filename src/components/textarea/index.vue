@@ -84,8 +84,4 @@ export default {
   },
 }
 </script>
-<style>
-.weui-cells {
-    margin-top: 0!important;
-}
-</style>
+ 

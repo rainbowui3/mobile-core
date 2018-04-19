@@ -47,9 +47,4 @@ export default {
   }
 }
 </script>
-<style>
-.vux-table thead{
-  background-color: #F7F7F7
-}
-
-</style>
+ 

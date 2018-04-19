@@ -20,8 +20,4 @@ export default {
   },
 }
 </script>
-<style scoped>
-.align-middle {
-  text-align: center;
-}
-</style>
+ 

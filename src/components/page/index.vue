@@ -16,21 +16,5 @@ export default {
   },
 }
 </script>
-<style>
-.page{
-	 position:absolute;
-  left:0;
-  right:0;
-  top:0;
-}
-body{
-  background-color: #eee
-}
-.fa{
- color: #409EFF;
-}
-.weui-tab {
-    position: unset;
-}
-</style>
+ 
 

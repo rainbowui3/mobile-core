@@ -57,34 +57,3 @@ export default {
   },
 }
 </script>
-<style>
-.item {
-  height: 26px;
-  line-height: 26px;
-  text-align: center;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  margin-right: 5px;
-  padding: 5px 10px;
-  margin: 5px;
-}
-.item-selected {
-  background: #ffffff url(../../styles/images/checker.png) no-repeat right bottom;
-  border-color: #409EFF!important;
-}
-.vux-check-icon > .weui-icon-success:before, .vux-check-icon > .weui-icon-success-circle:before {
-    color: #409EFF!important;
-}
-.weui-cells_checkbox .weui-check:checked + .vux-checklist-icon-checked:before {
-    color: #409EFF!important;
-}
-
-.weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before {
-    color: #409EFF!important;
-}
-
-.weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before {
-    color: #409EFF!important;
-}
-</style>

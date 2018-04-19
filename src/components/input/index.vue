@@ -142,12 +142,4 @@ export default {
   }
 }
 </script>
-<style>
-.weui-cells {
-    margin-top: 0!important;
-}
-
-.weui-input {
-    color: #999!important;
-}
-</style>
+ 

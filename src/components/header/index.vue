@@ -45,14 +45,3 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
-.vux-header{
-	  width: 100%;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1000;
-    background-color: #303133;
-}
-
-</style>

@@ -44,12 +44,4 @@ export default {
 
 };
 </script>
-
-<style>
-.vux-popup-picker-header-menu-right{
-  color: #409EFF!important;
-}
-.vux-popup-header-right {
-  color: #409EFF!important;
-}
-</style>
+ 
